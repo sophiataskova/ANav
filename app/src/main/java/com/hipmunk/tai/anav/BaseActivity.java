@@ -42,6 +42,8 @@ public class BaseActivity extends AppCompatActivity {
                 if (thisClass != BlueActivity.class) {
                     final Intent intent = new Intent(BaseActivity.this, BlueActivity.class);
                     startActivity(intent);
+                } else {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, getFragment()).commit();
                 }
             }
         });
@@ -51,6 +53,8 @@ public class BaseActivity extends AppCompatActivity {
                 if (thisClass != RedActivity.class) {
                     final Intent intent = new Intent(BaseActivity.this, RedActivity.class);
                     startActivity(intent);
+                } else {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, getFragment()).commit();
                 }
             }
         });
@@ -60,6 +64,8 @@ public class BaseActivity extends AppCompatActivity {
                 if (thisClass != EmeraldActivity.class) {
                     final Intent intent = new Intent(BaseActivity.this, EmeraldActivity.class);
                     startActivity(intent);
+                } else {
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, getFragment()).commit();
                 }
             }
         });
