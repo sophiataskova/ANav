@@ -14,6 +14,7 @@ public class EmeraldActivity extends BaseActivity {
         return "emerald";
     }
 
+    @Override
     protected int getActiveTab() {
         return 2;
     }

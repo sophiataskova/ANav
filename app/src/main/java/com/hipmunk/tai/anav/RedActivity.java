@@ -14,6 +14,7 @@ public class RedActivity extends BaseActivity {
         return "red";
     }
 
+    @Override
     protected int getActiveTab() {
         return 1;
     }

@@ -10,11 +10,7 @@ public class RedFragment extends BaseFragment {
 
     @Nullable
     @Override
-    public View onCreateView(final LayoutInflater inflater,
-            @Nullable
-            final ViewGroup container,
-            @Nullable
-            final Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable final Bundle savedInstanceState) {
         mLayout = R.layout.fragment_red;
         return super.onCreateView(inflater, container, savedInstanceState);
     }
